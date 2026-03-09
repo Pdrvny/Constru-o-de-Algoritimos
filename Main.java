@@ -1,0 +1,28 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Abrir o armário\n" +
+                "Pegar saco de pão\n" +
+                "Pegar a pasta de ameindoim\n" +
+                "Colocar os 2 sobre a mesa\n" +
+                "Voltar e fechar o armário\n" +
+                "Voltar para a mesa\n" +
+                "Abrir o saco de pão e pegar 2 unidades\n" +
+                "Abrir a pasta de ameidoim\n" +
+                "Abrir a gaveta\n" +
+                "Pegar o passador de manteiga\n" +
+                "Fechar a gaveta\n" +
+                "Pegar o passador de manteiga e colocdar dentro da pasta\n" +
+                "Pegar uma quantidade generosa de pasta com o passador\n" +
+                "Passar em uma das faces maiores do pão\n" +
+                "Colocar o outro pão em cima do pão que usamos\n" +
+                "Ir até a pia\n" +
+                "Deixar o passador na pia\n" +
+                "Voltar para a mesa\n" +
+                "Fechar o saco de pão\n" +
+                "Fechar a pastga de ameidoim\n" +
+                "Pegar o saco e a pasta\n" +
+                "Guardar os 2 no armário\n" +
+                "Voltar para a mesa\n" +
+                "Comer o pão");
+    }
+}
