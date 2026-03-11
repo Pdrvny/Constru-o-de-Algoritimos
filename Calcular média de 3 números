@@ -1,0 +1,27 @@
+
+package javaApplication1
+
+public class JavaApplicationl (
+
+public static void main(String[] args) {
+
+Scanner leitor new Scanner(System.in);
+
+System.out.println("Algoritimo para calcular media de 3 numeros");
+
+System.out.println("Insira o primeiro numero");
+
+double numerol leitor.nextDouble();
+
+System.out.println("Insira o segundo numero");
+
+double numero2 leitor.nextDouble();
+
+System.out.println("Insira o terceiro numero");
+
+double numero3 leitor.nextDouble();
+
+double resultado (numerol + numero2+ numero3) /3;
+
+System.out.println("A media dos numeros é "+resultado);
+}
