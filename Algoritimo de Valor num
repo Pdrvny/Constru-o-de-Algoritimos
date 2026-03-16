@@ -1,10 +1,15 @@
-public class main {
-public static void main(String[] args) {
+package javaapplication8;
 
-int num = 4;
+public class JavaApplication8 {
 
-num = num * num;
+    public static void main(String[] args) {
+     
+        
+        int num = 4;
 
-System.out.println(num);
-}
+    num = num * num;
+
+    System.out.println(num);
+    }
+    
 }
