@@ -1,0 +1,41 @@
+package javaapplication17;
+
+import java.util.Scanner;
+
+public class JavaApplication17 {
+
+    public static void main(String[] args) {
+        
+        Scanner leitor = new Scanner(System.in);
+        
+        System.out.println("1 ColaCola\n"
+                + "2 Agua\n"
+                + "3 Suco\n"
+                + "4 Cafe\n"
+                + "5 Cha");
+        
+        System.out.println("Escolha sua bebida");
+        int escolha = 0;
+        escolha = leitor.nextInt();
+        
+        if (escolha == 1){
+            System.out.println("sai coca");
+        }
+        else if (escolha == 2){
+            System.out.println("sai agua");
+        }
+        else if (escolha == 3){
+            System.out.println("sai suco");
+        }
+        else if (escolha == 4){
+            System.out.println("sai cafe");
+        }
+        else if (escolha == 5){
+            System.out.println("sai cha");
+        }
+        else {
+            System.out.println("Numero Invalido");
+        }
+        
+    }
+}
