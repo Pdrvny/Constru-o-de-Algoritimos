@@ -1,0 +1,53 @@
+ Scanner sc = new Scanner(System.in);
+
+        int opcao;
+
+        do {
+
+            System.out.println("\n=== CALCULADORA HEXADECIMAL ===");
+            System.out.println("1 - Hexadecimal para Decimal");
+            System.out.println("2 - Decimal para Hexadecimal");
+            System.out.println("0 - Sair");
+            System.out.print("Escolha: ");
+
+            opcao = sc.nextInt();
+
+            switch (opcao) {
+
+                case 1:
+
+                    System.out.print("Digite um número hexadecimal: ");
+                    String hex = sc.next();
+
+                    int decimal = Integer.parseInt(hex, 16);
+
+                    System.out.println("Decimal: " + decimal);
+
+                    break;
+
+                case 2:
+
+                    System.out.print("Digite um número decimal: ");
+                    int dec = sc.nextInt();
+
+                    String hexadecimal = Integer.toHexString(dec).toUpperCase();
+
+                    System.out.println("Hexadecimal: " + hexadecimal);
+
+                    break;
+
+                case 0:
+
+                    System.out.println("Encerrando...");
+
+                    break;
+
+                default:
+
+                    System.out.println("Opção inválida!");
+
+            }
+
+        } while (opcao != 0);
+
+        sc.close();
